@@ -15,6 +15,7 @@ export default function Container({
         loading={loading}
         feedbackItems={feedbackItems}
         errorMessage={errorMessage}
+        handleAddToList={handleAddToList}
       />
     </main>
   );
