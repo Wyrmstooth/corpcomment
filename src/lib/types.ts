@@ -11,7 +11,6 @@ export type ContainerProps = {
   loading: boolean;
   feedbackItems: feedbackItem[];
   errorMessage: string;
-  handleAddToList: (text: string) => void;
 };
 
 export type HeaderProps = {

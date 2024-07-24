@@ -1,13 +1,11 @@
-import { ContainerProps } from "../../lib/types";
+import { ContainerProps, HeaderProps } from "../../lib/types";
 import FeedbackList from "../feedback/FeedbackList";
 import Header from "./Header";
 
-export default function Container({
-  loading,
-  errorMessage,
-  feedbackItems,
-  handleAddToList,
-}: ContainerProps) {
+export default function Container(
+  { loading, errorMessage, feedbackItems }: ContainerProps,
+  { handleAddToList }: HeaderProps
+) {
   return (
     <main className="container">
       <Header handleAddToList={handleAddToList} />
@@ -15,7 +13,6 @@ export default function Container({
         loading={loading}
         feedbackItems={feedbackItems}
         errorMessage={errorMessage}
-        handleAddToList={handleAddToList}
       />
     </main>
   );
