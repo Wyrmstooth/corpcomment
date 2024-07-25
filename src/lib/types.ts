@@ -18,9 +18,9 @@ export type feedbackItem = {
 //   handleAddToList: (text: string) => void;
 // };
 
-// export type feedbackFormProps = {
-//   handleAddToList: (text: string) => void;
-// };
+export type feedbackFormProps = {
+  handleAddToList: (text: string) => void;
+};
 
 // export type HashTagListProps = {
 //   handleSelectCompany: (company: string) => void;
