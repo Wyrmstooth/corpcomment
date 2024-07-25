@@ -26,7 +26,7 @@ export type feedbackFormProps = {
 //   handleSelectCompany: (company: string) => void;
 // };
 
-// export type HashTagItemProps = {
-//   company: string;
-//   handleSelectCompany: (company: string) => void;
-// };
+export type HashTagItemProps = {
+  company: string;
+  handleSelectCompany: (company: string) => void;
+};
